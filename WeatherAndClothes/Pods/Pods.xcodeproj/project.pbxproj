@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289FFD9DAEADB916B9C2493F48B53D07 /* Pods-WeatherAndClothes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A043578C5E90FA40F8AD726CA2C065F6 /* Pods-WeatherAndClothes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A17246DC918B8E7FF28F4E616F84E3 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2249E5B53BA1EF3F74E9110CAE76F0 /* KYEmbedMainControllerSegue.swift */; };
+		74CF343BD3742D3643C0C0507FC5F183 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0D7229E2B271EB9117487335684FB /* KYDrawerController.swift */; };
+		8690E458047D43E18CA3B5607839C7F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9FC79171F1DD74412CF1D8CE9D4E99BB /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF70269886F3836BE032AA8FB1E81A0 /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FCF59B5BBD746559D1343216F66D235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AD27FE456FE8C9C555CE146678517FF4 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863323BB7EECAF16EB7929827F8C653 /* KYDrawerController-dummy.m */; };
+		E65752663402867BB820AC1D17D8FDEA /* Pods-WeatherAndClothes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7D09A94B4CA110BCE57B2D14849D09 /* Pods-WeatherAndClothes-dummy.m */; };
+		EBFA6C1365CE1C7C5A08E9067CFFED01 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C79D8B26D3FAA4B377166811AE37679 /* KYEmbedDrawerControllerSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD985FEA689FF60814124FCEBB70783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B7957C41BA4B641DF21B5F6DDBA9DB;
+			remoteInfo = KYDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0120E3C6FB0910A86626902C6E1D8F93 /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYDrawerController.framework; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0980CFC1BE4B2D86CD2486C47BEE9123 /* Pods-WeatherAndClothes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherAndClothes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BB2B6AE83483E5415D5D5E1ABF44DCA /* Pods-WeatherAndClothes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherAndClothes-frameworks.sh"; sourceTree = "<group>"; };
+		2DF70269886F3836BE032AA8FB1E81A0 /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		3AF491F0C99654B9839A7C2A5C4A4D4A /* Pods-WeatherAndClothes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherAndClothes.modulemap"; sourceTree = "<group>"; };
+		3CE2A3D3321C093E48ED959BD974B6F0 /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
+		4553F95458FDC18AAF333B3D2E5983A5 /* Pods-WeatherAndClothes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherAndClothes.release.xcconfig"; sourceTree = "<group>"; };
+		4745C32AA236F294A18AC79641D026AC /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		5863323BB7EECAF16EB7929827F8C653 /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
+		5D6C8089C014EC05C3FB0BDE4A7050BF /* Pods-WeatherAndClothes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherAndClothes.debug.xcconfig"; sourceTree = "<group>"; };
+		62BE4C7F146F4D727EA8AEFCA11239E1 /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		655FA18A18FD61690E1B2348656A237C /* Pods-WeatherAndClothes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherAndClothes-Info.plist"; sourceTree = "<group>"; };
+		85DB7DB4B0934AD84B4ACDBA31A5533F /* Pods_WeatherAndClothes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeatherAndClothes.framework; path = "Pods-WeatherAndClothes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C79D8B26D3FAA4B377166811AE37679 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		97962E8008A8A7D2EEA0CCC629EC7B13 /* KYDrawerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KYDrawerController-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A043578C5E90FA40F8AD726CA2C065F6 /* Pods-WeatherAndClothes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherAndClothes-umbrella.h"; sourceTree = "<group>"; };
+		BE7D09A94B4CA110BCE57B2D14849D09 /* Pods-WeatherAndClothes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherAndClothes-dummy.m"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBE0D7229E2B271EB9117487335684FB /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		E64EE067ECDDB426CC465A7062DC2807 /* Pods-WeatherAndClothes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherAndClothes-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB2249E5B53BA1EF3F74E9110CAE76F0 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BADE44E9EC88B4311FD55E9A8323B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCF59B5BBD746559D1343216F66D235 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E4E42847CD6729FAEEF2C47DD52F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8690E458047D43E18CA3B5607839C7F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F63CEB1ABC0AE005958C0EA8473BC56 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				720D8B53B7F3E6D00780842FC77A39A1 /* Pods-WeatherAndClothes */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		40C44760CC70961DB5871AEBE6F225AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0120E3C6FB0910A86626902C6E1D8F93 /* KYDrawerController.framework */,
+				85DB7DB4B0934AD84B4ACDBA31A5533F /* Pods_WeatherAndClothes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		720D8B53B7F3E6D00780842FC77A39A1 /* Pods-WeatherAndClothes */ = {
+			isa = PBXGroup;
+			children = (
+				3AF491F0C99654B9839A7C2A5C4A4D4A /* Pods-WeatherAndClothes.modulemap */,
+				0980CFC1BE4B2D86CD2486C47BEE9123 /* Pods-WeatherAndClothes-acknowledgements.markdown */,
+				E64EE067ECDDB426CC465A7062DC2807 /* Pods-WeatherAndClothes-acknowledgements.plist */,
+				BE7D09A94B4CA110BCE57B2D14849D09 /* Pods-WeatherAndClothes-dummy.m */,
+				2BB2B6AE83483E5415D5D5E1ABF44DCA /* Pods-WeatherAndClothes-frameworks.sh */,
+				655FA18A18FD61690E1B2348656A237C /* Pods-WeatherAndClothes-Info.plist */,
+				A043578C5E90FA40F8AD726CA2C065F6 /* Pods-WeatherAndClothes-umbrella.h */,
+				5D6C8089C014EC05C3FB0BDE4A7050BF /* Pods-WeatherAndClothes.debug.xcconfig */,
+				4553F95458FDC18AAF333B3D2E5983A5 /* Pods-WeatherAndClothes.release.xcconfig */,
+			);
+			name = "Pods-WeatherAndClothes";
+			path = "Target Support Files/Pods-WeatherAndClothes";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F4E13B7A7348A581ADE0547BB8DCAF12 /* Pods */,
+				40C44760CC70961DB5871AEBE6F225AB /* Products */,
+				0F63CEB1ABC0AE005958C0EA8473BC56 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3BC87D24B43200BF22EBF94D3E26A74 /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0D7229E2B271EB9117487335684FB /* KYDrawerController.swift */,
+				8C79D8B26D3FAA4B377166811AE37679 /* KYEmbedDrawerControllerSegue.swift */,
+				FB2249E5B53BA1EF3F74E9110CAE76F0 /* KYEmbedMainControllerSegue.swift */,
+				E751F1D8E0341420B914A45961B409CB /* Support Files */,
+			);
+			name = KYDrawerController;
+			path = KYDrawerController;
+			sourceTree = "<group>";
+		};
+		E751F1D8E0341420B914A45961B409CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CE2A3D3321C093E48ED959BD974B6F0 /* KYDrawerController.modulemap */,
+				4745C32AA236F294A18AC79641D026AC /* KYDrawerController.xcconfig */,
+				5863323BB7EECAF16EB7929827F8C653 /* KYDrawerController-dummy.m */,
+				97962E8008A8A7D2EEA0CCC629EC7B13 /* KYDrawerController-Info.plist */,
+				62BE4C7F146F4D727EA8AEFCA11239E1 /* KYDrawerController-prefix.pch */,
+				2DF70269886F3836BE032AA8FB1E81A0 /* KYDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYDrawerController";
+			sourceTree = "<group>";
+		};
+		F4E13B7A7348A581ADE0547BB8DCAF12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3BC87D24B43200BF22EBF94D3E26A74 /* KYDrawerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35929B1570922DA50E04D90965B07B82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289FFD9DAEADB916B9C2493F48B53D07 /* Pods-WeatherAndClothes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49A4E2A04427AABA35C1A94D67F2B6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC79171F1DD74412CF1D8CE9D4E99BB /* KYDrawerController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5907B8C903BA8CEA4A2F8A0C1A50ECB6 /* Pods-WeatherAndClothes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DEF110C3F445E1D41C17DBF3B4D525 /* Build configuration list for PBXNativeTarget "Pods-WeatherAndClothes" */;
+			buildPhases = (
+				35929B1570922DA50E04D90965B07B82 /* Headers */,
+				F4E77FA35EA648B3309140435FB55CD9 /* Sources */,
+				49E4E42847CD6729FAEEF2C47DD52F1B /* Frameworks */,
+				12CBF30022F023824707A2A92ACFBAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B2D3D9E3B97A8D42A50DA5B053C6B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherAndClothes";
+			productName = "Pods-WeatherAndClothes";
+			productReference = 85DB7DB4B0934AD84B4ACDBA31A5533F /* Pods_WeatherAndClothes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94B7957C41BA4B641DF21B5F6DDBA9DB /* KYDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2D16C99CC8B1043F9DB21EC613050D /* Build configuration list for PBXNativeTarget "KYDrawerController" */;
+			buildPhases = (
+				E49A4E2A04427AABA35C1A94D67F2B6C /* Headers */,
+				C80996C8E9ED0707476BFC69FB8E5ACE /* Sources */,
+				32BADE44E9EC88B4311FD55E9A8323B6 /* Frameworks */,
+				F64C4AE3A5C199EC987A937F36B80906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDrawerController;
+			productName = KYDrawerController;
+			productReference = 0120E3C6FB0910A86626902C6E1D8F93 /* KYDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 40C44760CC70961DB5871AEBE6F225AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B7957C41BA4B641DF21B5F6DDBA9DB /* KYDrawerController */,
+				5907B8C903BA8CEA4A2F8A0C1A50ECB6 /* Pods-WeatherAndClothes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12CBF30022F023824707A2A92ACFBAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64C4AE3A5C199EC987A937F36B80906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80996C8E9ED0707476BFC69FB8E5ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD27FE456FE8C9C555CE146678517FF4 /* KYDrawerController-dummy.m in Sources */,
+				74CF343BD3742D3643C0C0507FC5F183 /* KYDrawerController.swift in Sources */,
+				EBFA6C1365CE1C7C5A08E9067CFFED01 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				74A17246DC918B8E7FF28F4E616F84E3 /* KYEmbedMainControllerSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E77FA35EA648B3309140435FB55CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65752663402867BB820AC1D17D8FDEA /* Pods-WeatherAndClothes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4B2D3D9E3B97A8D42A50DA5B053C6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYDrawerController;
+			target = 94B7957C41BA4B641DF21B5F6DDBA9DB /* KYDrawerController */;
+			targetProxy = 5FD985FEA689FF60814124FCEBB70783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B48A8C4D3D6E5C1D569559AD61BC37D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4553F95458FDC18AAF333B3D2E5983A5 /* Pods-WeatherAndClothes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherAndClothes/Pods-WeatherAndClothes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherAndClothes/Pods-WeatherAndClothes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB880F7D2FDCC5A66108A8FFCACF7A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4745C32AA236F294A18AC79641D026AC /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/KYDrawerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				PRODUCT_MODULE_NAME = KYDrawerController;
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9F9FDDD1E33B306DFB57AB5065C778F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4745C32AA236F294A18AC79641D026AC /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/KYDrawerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				PRODUCT_MODULE_NAME = KYDrawerController;
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8578CA1BA3EE258933B7B9E601F1839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6C8089C014EC05C3FB0BDE4A7050BF /* Pods-WeatherAndClothes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherAndClothes/Pods-WeatherAndClothes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherAndClothes/Pods-WeatherAndClothes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C2D16C99CC8B1043F9DB21EC613050D /* Build configuration list for PBXNativeTarget "KYDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F9FDDD1E33B306DFB57AB5065C778F /* Debug */,
+				DB880F7D2FDCC5A66108A8FFCACF7A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DEF110C3F445E1D41C17DBF3B4D525 /* Build configuration list for PBXNativeTarget "Pods-WeatherAndClothes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8578CA1BA3EE258933B7B9E601F1839 /* Debug */,
+				B48A8C4D3D6E5C1D569559AD61BC37D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

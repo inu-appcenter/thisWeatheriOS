@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="myAlarmCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myAlarmCell" rowHeight="84" id="bkr-Qj-hGg" customClass="MyAlarmTableViewCell" customModule="WeatherAndClothes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bkr-Qj-hGg" id="y3S-oa-O3x">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="83.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="It1-GH-KOb">
+                        <rect key="frame" x="16" y="32" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="DZX-gX-5JV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                        <color key="textColor" name="blue"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66d-58-lGn">
+                        <rect key="frame" x="92" y="27.5" width="56" height="29"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTG-Yq-XHz">
+                        <rect key="frame" x="310" y="26.5" width="51" height="31"/>
+                        <color key="tintColor" name="blue"/>
+                        <color key="onTintColor" name="blue"/>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tTG-Yq-XHz" firstAttribute="centerY" secondItem="66d-58-lGn" secondAttribute="centerY" id="E84-bm-sJU"/>
+                    <constraint firstItem="66d-58-lGn" firstAttribute="centerY" secondItem="It1-GH-KOb" secondAttribute="centerY" id="N9J-aH-Vdi"/>
+                    <constraint firstItem="66d-58-lGn" firstAttribute="leading" secondItem="It1-GH-KOb" secondAttribute="trailing" constant="16" id="SQ2-6s-LnT"/>
+                    <constraint firstItem="It1-GH-KOb" firstAttribute="leading" secondItem="y3S-oa-O3x" secondAttribute="leading" constant="16" id="fdj-Dy-KP9"/>
+                    <constraint firstAttribute="trailing" secondItem="tTG-Yq-XHz" secondAttribute="trailing" constant="16" id="mty-js-ukL"/>
+                    <constraint firstItem="66d-58-lGn" firstAttribute="centerY" secondItem="y3S-oa-O3x" secondAttribute="centerY" id="utu-4i-zDO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="alarmSwitch" destination="tTG-Yq-XHz" id="lHC-Kf-ADv"/>
+                <outlet property="dayRepeatLabel" destination="It1-GH-KOb" id="P4P-3h-4hL"/>
+                <outlet property="timeLabel" destination="66d-58-lGn" id="jS7-e7-cef"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="blue">
+            <color red="0.035294117647058823" green="0.3411764705882353" blue="0.82745098039215681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
