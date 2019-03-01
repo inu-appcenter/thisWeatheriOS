@@ -14,6 +14,7 @@
 		D6344397221AC04500B5FA22 /* MyAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6344396221AC04500B5FA22 /* MyAlarmViewController.swift */; };
 		D634439A221AC74400B5FA22 /* MyAlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6344399221AC74400B5FA22 /* MyAlarmTableViewCell.swift */; };
 		D634439C221ACC8300B5FA22 /* MyAlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D634439B221ACC8300B5FA22 /* MyAlarmTableViewCell.xib */; };
+		D63443A0221BB44900B5FA22 /* AlarmSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D634439F221BB44900B5FA22 /* AlarmSettingViewController.swift */; };
 		D638F22E2215355300A322E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D638F22D2215355300A322E6 /* Main.storyboard */; };
 		D6963D312211964D000F0586 /* 아리따-돋움(OTF)-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6963D2E22119626000F0586 /* 아리따-돋움(OTF)-SemiBold.otf */; };
 		D6963D3222119652000F0586 /* 아리따-돋움(OTF)-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6963D2C22119602000F0586 /* 아리따-돋움(OTF)-Light.otf */; };
@@ -38,6 +39,7 @@
 		D6344396221AC04500B5FA22 /* MyAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlarmViewController.swift; sourceTree = "<group>"; };
 		D6344399221AC74400B5FA22 /* MyAlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlarmTableViewCell.swift; sourceTree = "<group>"; };
 		D634439B221ACC8300B5FA22 /* MyAlarmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAlarmTableViewCell.xib; sourceTree = "<group>"; };
+		D634439F221BB44900B5FA22 /* AlarmSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingViewController.swift; sourceTree = "<group>"; };
 		D638F22D2215355300A322E6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D6963D2C22119602000F0586 /* 아리따-돋움(OTF)-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "아리따-돋움(OTF)-Light.otf"; sourceTree = "<group>"; };
 		D6963D2D22119611000F0586 /* 아리따-돋움(OTF)-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "아리따-돋움(OTF)-Medium.otf"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				D6963D3E2211B064000F0586 /* MainWeatherViewController.swift */,
 				D6CCBF4522145B9D004043D0 /* drawerViewController.swift */,
 				D6344396221AC04500B5FA22 /* MyAlarmViewController.swift */,
+				D634439F221BB44900B5FA22 /* AlarmSettingViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				D6963D3F2211B064000F0586 /* MainWeatherViewController.swift in Sources */,
 				D6CCBF422214547B004043D0 /* Tutorial2ViewController.swift in Sources */,
+				D63443A0221BB44900B5FA22 /* AlarmSettingViewController.swift in Sources */,
 				D6CCBF4022145464004043D0 /* Tutorial1ViewController.swift in Sources */,
 				D634439A221AC74400B5FA22 /* MyAlarmTableViewCell.swift in Sources */,
 				D6CCBF4622145B9D004043D0 /* drawerViewController.swift in Sources */,

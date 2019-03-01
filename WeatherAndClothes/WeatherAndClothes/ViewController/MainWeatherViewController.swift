@@ -40,14 +40,10 @@ class MainWeatherViewController: UIViewController {
             drawer.setDrawerState(.opened, animated: true)
         }
     }
-    
-    
-    //MARK: IBAction
 
     //MARK: life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     override func viewWillAppear(_ animated: Bool) {
